@@ -1,0 +1,75 @@
+body {
+    background-image: url(r.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+body .yaricap {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    text-align: center;
+    font-size: 18px;
+    margin-left: 280px;
+    margin-top: 130px;
+    font-weight: 1000; 
+    border: none;
+    border-radius: 100px;
+}
+body .alan,.cevre {
+    color: #0e0e0e;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 500px;
+    transform: translateY(777%);
+    font-size: 35px;
+    color: transparent;
+}
+body .alan {
+    margin-left: 400px;
+}
+body .cevre {
+    margin-top: 18px;
+    margin-left: 450px;
+}
+body .hesapyap {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background-color: #030303;
+    color: #fefefe;
+    border: none;
+    cursor: pointer;
+    border-radius: 30rem;
+    margin-left: 167px;
+    margin-top: 220px;
+    transition: 0.2s;
+}
+body .hesapyap:hover {
+    background-color: #fefefe;
+    color: #030303;
+}
+body .clear {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    border-radius: 30rem;
+    border: none;
+    background-color: #fefefe;
+    color: red;
+    cursor: pointer;
+    transition: 0.2s;
+    margin-left: 70px;
+    margin-top: 223px;
+}
+body .clear:hover {
+    background-color: rgb(223, 13, 13);
+    color: #fefefe;
+}
+body .yapimci {
+    position: absolute;
+    font-family: monospace;
+    font-style: italic;
+    font-size: 15px;
+    transform: translateY(-100%);
+    margin-left: 15px;
+    user-select: none;
+}
